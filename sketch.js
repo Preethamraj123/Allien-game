@@ -15,7 +15,7 @@ function setup() {
   swamp.scale = 2.5
   player = createSprite(80,550,40,40)
   player.addImage(playerImage)
-  player.scale=0.5
+  player.scale=0.2
   
   wormGroup = new Group()
 }
