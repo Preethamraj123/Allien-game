@@ -8,7 +8,7 @@ function preload(){
   wormImage = loadImage("Images/worm.png")
 }
 function setup() {
-  createCanvas(600,600);
+  createCanvas(1365,625);
   
   swamp = createSprite(300,300)
   swamp.addImage(swampImage)
@@ -25,7 +25,7 @@ function draw() {
   
   stroke("red")
   noFill()
-  ellipse(100,350,40,30)
+  ellipse(300,350,40,30)
   
   player.x = mouseX
   player.y = mouseY
