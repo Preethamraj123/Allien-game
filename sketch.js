@@ -8,7 +8,7 @@ function preload(){
   wormImage = loadImage("Images/worm.png")
 }
 function setup() {
-  createCanvas(1365,1000);
+  createCanvas(1365,1800);
   
   swamp = createSprite(300,300)
   swamp.addImage(swampImage)
